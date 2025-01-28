@@ -1,0 +1,169 @@
+body
+{
+    margin: 0;
+    color: gray;
+    background-color: black;
+}
+/* head and nav bar */
+.head{
+width: 1519px;
+height: 217px;
+background-color: black;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.inside-head{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 50px 0 50px;
+    width: 1400px;
+}
+.heading{
+    height: 150px;
+    width: 473px;
+}
+
+#kopikoheading{
+    text-align: center;
+    color: #b7b7b7;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: "Playfair Display", serif;
+    letter-spacing: 2px;
+}
+#kopikoheading:hover{
+    color: #db4f3d;
+    cursor: pointer;
+}
+#kopikopara{
+    text-align: center;
+    color: #b7b7b7;
+    position: relative;
+    bottom: 30px;
+    letter-spacing: 4px;
+    font-family: system-ui;
+}
+.navbar{
+    width: 1400px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 0px;
+    border-top: 1px solid gray;
+}
+/* navigation bar css propert */
+.navbar-sub{
+    padding: 10px;
+    width: 640px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav2,.nav3,.nav4,.nav5,.nav6{
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    color: white;
+}
+.nav1{
+    color: #db4f3d;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+}
+.navbar-sub div:hover{
+    cursor: pointer;
+    color: #db4f3d;
+}
+.nav2:hover{
+    background: transparent;
+    color: #db4f3d;
+    cursor: pointer;
+}
+.nav2{
+    background-color: transparent;
+    font-weight: lighter;
+    border: none;
+}
+/* firsrt image */
+.div-image{
+    width: 100%;
+}
+/* section */
+.section-div{
+    height: 1312px;
+    width: 100%;
+    position: relative;
+    top: -4px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.para-section{
+    position: relative;
+    top: 150px;
+    text-align: center;
+}
+.paragraph{
+    font-weight: 700;
+    font-size: 19px;
+    color: #7A7A7A;
+    font-family: sans-serif;
+}
+.first-para{
+    line-height: 2;
+}
+.para-section2{
+position: relative;
+top: 170px;
+}
+/* second image */
+.div-image2{
+    width: 885px;
+    height: 495px;
+}
+.containerimage{
+    position: relative;
+    top: 220px;
+}
+/* icon */
+.icon span{
+    width: 29px;
+    display: flex;
+}
+.icon{
+    position: relative;
+    top: 470px;
+    height: 35px;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.icon span img:hover{
+    cursor: pointer;
+}
+/* footer */
+.foot{
+    height: 138px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footerpara{
+    color: #7A7A7A;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+.anchorfoot{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+.anchorfoot:hover{
+    color: #db4f3d;
+    text-decoration: underline;
+}
